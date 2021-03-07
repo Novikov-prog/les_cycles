@@ -2,9 +2,9 @@ public class Main
 {
     public static void main(String[] args)
     {
-        for(int age = 15; age < 40; age++) // lister par age jusqu a 35 ans
+        for(int age = 15; age < 40; age++) // avec incrementation et decrementation vaut mieux utiliser le cycle for et PAS -while-
         {
-            System.out.print(age + " années; vous pouvez: ");
+            System.out.print(age + " années; vous pouvez: ");  // lister par age jusqu a 35 ans
             if(age > 16 && age < 18) {
                 System.out.print("avoir un BSR");
             }
