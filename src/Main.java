@@ -11,6 +11,9 @@ public class Main
             else if(age >= 18) {
                 System.out.print("avoir vos permis de conduire");
             }
+            else {
+                System.out.print("tu peux rouler en velo");
+            }
             if(age >= 35) {
                 System.out.print(", vous pouvez vous présenter a la presidentielle");
             }
